@@ -34,6 +34,16 @@ const Navbar = () => {
               Add Bot
             </a>
           </li>
+          <li>
+            <Link className="p-color" href="/tos">
+              Terms
+            </Link>
+          </li>
+          <li>
+            <Link className="p-color" href="/privacy">
+              Privacy
+            </Link>
+          </li>
         </ul>
       </nav>
     </div>
