@@ -59,12 +59,12 @@ const Footer = () => {
           <hr />
           <div>
             <p className="p-color">
-              Revert by Kappalul / Revert Development
+              Revert by Revert Development / 
               <Link
                 href="https://github.com/kappalulyt"
                 className="h-color no-decoration"
               >
-                Preet Suthar
+                Kappalul
               </Link>
             </p>
             <p className="p-color">{year} Revert &copy; All rights reserved!</p>
