@@ -12,24 +12,23 @@ const Showcase = () => {
       <main className="showcase">
         <h1 className="showcase-header h-color">BOT</h1>
         <h2 className="showcase-header-text h-color">
-          The only discord bot you need!
+          Dont let one mistake ruin your Discord server.
         </h2>
         <p className="showcase-para p-color">
-          One of the awesome discord bot with tons of commands that will fill
-          your needs in your discord server.
+          Revert has it all, anti-links, anti-invite-links, antispam, etc.
         </p>
 
-        <span className="p-color">Bot is online!</span>
+        <span className="p-color">Revert is online (99.99%)</span>
         <div className="showcase-btn">
           <button className="btn">
             <Link className="h-color no-decoration" href="#">
-              Invite now!
+              Add Bot
             </Link>
           </button>
 
           <button className="btn">
             <Link className="h-color no-decoration" href="#">
-              Join server!
+              Support Server
             </Link>
           </button>
         </div>
