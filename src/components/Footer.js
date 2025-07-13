@@ -59,7 +59,7 @@ const Footer = () => {
           <hr />
           <div>
             <p className="p-color">
-              Revert by{" "}
+              Revert by Kappalul / Revert Development
               <Link
                 href="https://github.com/kappalulyt"
                 className="h-color no-decoration"
