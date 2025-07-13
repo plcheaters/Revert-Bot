@@ -36,18 +36,6 @@ export default function Commands() {
             <div className="box-content p-color">
               <ul>
                 <li>
-                  <kbd>command1</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-                <li>
-                  <kbd>command2</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-                <li>
-                  <kbd>command3</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-                <li>
                   <kbd>antilink</kbd> -{" "}
                   <span className="p-color">
                     Enables / disables anti-link prevention.
