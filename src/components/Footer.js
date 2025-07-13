@@ -12,7 +12,7 @@ const Footer = () => {
             <ul>
               <li>
                 <Link className="h-color" href="/">
-                  bot.gg
+                  https://revert-bot.vercel.app
                 </Link>
                 <span
                   style={{
@@ -38,18 +38,18 @@ const Footer = () => {
           <div className="footer-items">
             <ul>
               <li>
-                <Link className="p-color" href="/commands">
-                  /commands
+                <Link className="p-color" href="Commands">
+                  Commands
                 </Link>
               </li>
               <li>
                 <Link className="p-color" href="#">
-                  /support
+                  Support
                 </Link>
               </li>
               <li>
                 <Link className="p-color" href="#">
-                  /discord-server
+                  Discord Server
                 </Link>
               </li>
             </ul>
@@ -59,24 +59,24 @@ const Footer = () => {
           <hr />
           <div>
             <p className="p-color">
-              Created with ❤️ by{" "}
+              Revert by{" "}
               <Link
-                href="https://github.com/preetsuthar17"
+                href="https://github.com/kappalulyt"
                 className="h-color no-decoration"
               >
                 Preet Suthar
               </Link>
             </p>
-            <p className="p-color">{year} &copy; All rights reserved!</p>
+            <p className="p-color">{year} Revert &copy; All rights reserved!</p>
           </div>
           <div className="footer-sec2-link">
             <Link className="p-color no-decoration" href="#">
-              /support
+              Support
             </Link>
             <Link
               target="_blank"
               className="p-color no-decoration"
-              href="https://github.com/preetsuthar17/discord-bot-website-template"
+              href="https://discord.gg/S3xCWWHsNr"
             >
               /source-code
             </Link>
