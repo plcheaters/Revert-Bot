@@ -33,7 +33,7 @@ export default function Commands() {
           <input type="radio" name="accordion" id="cb1" />
           <section className="box">
             <label className="box-title p-color" htmlFor="cb1">
-              Utilities ⚙️
+              ⚡Automod
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
             <div className="box-content p-color">
@@ -56,7 +56,7 @@ export default function Commands() {
           <input type="radio" name="accordion" id="cb2" />
           <section className="box">
             <label className="box-title p-color" htmlFor="cb2">
-              Fun 🐛
+              ⚙️ Utilities
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
             <div className="box-content p-color">
@@ -79,70 +79,78 @@ export default function Commands() {
           <input type="radio" name="accordion" id="cb3" />
           <section className="box">
             <label className="box-title p-color" htmlFor="cb3">
-              Customization 👀
+             🛡️ Moderation
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
             <div className="box-content p-color">
               <ul>
                 <li>
-                  <kbd>$command1</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>/warn</kbd> -{" "}
+                  <span className="p-color">Warns a member.</span>
                 </li>
                 <li>
-                  <kbd>$command2</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>/warnings</kbd> -{" "}
+                  <span className="p-color">View / Check the warnings of a member.</span>
                 </li>
                 <li>
-                  <kbd>$command3</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-              </ul>
-            </div>
-          </section>
-
-          <input type="radio" name="accordion" id="cb4" />
-          <section className="box">
-            <label className="box-title p-color" htmlFor="cb4">
-              Gameplay 🎲
-            </label>
-            <label className="box-close" htmlFor="acc-close"></label>
-            <div className="box-content p-color">
-              <ul>
-                <li>
-                  <kbd>$command1</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>/clearnwarnings</kbd> -{" "}
+                  <span className="p-color">Clears all the warnings from a member.</span>
                 </li>
                 <li>
-                  <kbd>$command2</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>/ban</kbd> -{" "}
+                  <span className="p-color">Bans a member from the server.</span>
                 </li>
                 <li>
-                  <kbd>$command3</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-              </ul>
-            </div>
-          </section>
-
-          <input type="radio" name="accordion" id="cb5" />
-          <section className="box">
-            <label className="box-title p-color" htmlFor="cb5">
-              Image 🖼️
-            </label>
-            <label className="box-close" htmlFor="acc-close"></label>
-            <div className="box-content p-color">
-              <ul>
-                <li>
-                  <kbd>$command1</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>/kick</kbd> -{" "}
+                  <span className="p-color">Kicks a member from the server.</span>
                 </li>
                 <li>
-                  <kbd>$command2</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>/warnings</kbd> -{" "}
+                  <span className="p-color">View / Check the warnings of a member.</span>
                 </li>
                 <li>
-                  <kbd>$command3</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>/mute</kbd> -{" "}
+                  <span className="p-color">Permanetly mute a member.</span>
+                </li>
+                <li>
+                  <kbd>/tempmute</kbd> -{" "}
+                  <span className="p-color">Temporarily mutes a member.</span>
+                </li>
+                <li>
+                  <kbd>/tempban</kbd> -{" "}
+                  <span className="p-color">Temporarily ban / long kick a member.</span>
+                </li>
+                <li>
+                  <kbd>/ban</kbd> -{" "}
+                  <span className="p-color">Bans a member from the server.</span>
+                </li>
+                <li>
+                  <kbd>/kick</kbd> -{" "}
+                  <span className="p-color">Kicks a member from the server.</span>
+                </li>
+                <li>
+                  <kbd>/warnings</kbd> -{" "}
+                  <span className="p-color">View / Check the warnings of a member.</span>
+                </li>
+                <li>
+                  <kbd>/mute</kbd> -{" "}
+                  <span className="p-color">Permanetly mute a member.</span>
+                </li>
+                <li>
+                  <kbd>/deafen</kbd> -{" "}
+                  <span className="p-color">Deafens a member in a voice chat (does not allow member to hear other people).</span>
+                </li>
+                <li>
+                  <kbd>/undeafen</kbd> -{" "}
+                  <span className="p-color">Undeafens a member of choice.</span>
+                </li>
+                <li>
+                  <kbd>/role</kbd> -{" "}
+                  <span className="p-color">Grant or remove a role from a member provided.</span>
+                </li>
+                <li>
+                  <kbd>/whois</kbd> -{" "}
+                  <span className="p-color"Fetch essential / non essential information of a member.</span>
                 </li>
               </ul>
             </div>
