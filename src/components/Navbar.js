@@ -26,18 +26,24 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link
+              <a
                 className="p-color"
-                href=""
+                href="https://discord.com/oauth2/authorize?client_id=1323812197750538331&permissions=8&integration_type=0&scope=bot"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Add Bot
-              </Link>
+              </a>
             </li>
           </ul>
         </nav>
       </navbar>
     </div>
+  );
+};
+
+export default Navbar;
+
   );
 };
 
