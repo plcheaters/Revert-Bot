@@ -1,18 +1,11 @@
 import Head from "next/head";
-
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-
 import { motion } from "framer-motion";
 
 export default function Commands() {
   return (
-    <motion.div
-      initial={{
-        opacity: 0,
-      }}
-      animate={{ opacity: 1 }}
-    >
+    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
       <Head>
         <title>Commands | BOT</title>
         <meta
@@ -22,7 +15,9 @@ export default function Commands() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
       <Navbar />
+
       <section className="about-section">
         <nav className="accordion arrows" id="commands">
           <header className="box">
@@ -30,10 +25,11 @@ export default function Commands() {
               ⚡ Commands
             </label>
           </header>
+
           <input type="radio" name="accordion" id="cb1" />
           <section className="box">
             <label className="box-title p-color" htmlFor="cb1">
-              ⚡Automod
+              ⚡ Automod
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
             <div className="box-content p-color">
@@ -53,6 +49,7 @@ export default function Commands() {
               </ul>
             </div>
           </section>
+
           <input type="radio" name="accordion" id="cb2" />
           <section className="box">
             <label className="box-title p-color" htmlFor="cb2">
@@ -76,10 +73,11 @@ export default function Commands() {
               </ul>
             </div>
           </section>
+
           <input type="radio" name="accordion" id="cb3" />
           <section className="box">
             <label className="box-title p-color" htmlFor="cb3">
-             🛡️ Moderation
+              🛡️ Moderation
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
             <div className="box-content p-color">
@@ -90,11 +88,15 @@ export default function Commands() {
                 </li>
                 <li>
                   <kbd>/warnings</kbd> -{" "}
-                  <span className="p-color">View / Check the warnings of a member.</span>
+                  <span className="p-color">
+                    View / Check the warnings of a member.
+                  </span>
                 </li>
                 <li>
-                  <kbd>/clearnwarnings</kbd> -{" "}
-                  <span className="p-color">Clears all the warnings from a member.</span>
+                  <kbd>/clearwarnings</kbd> -{" "}
+                  <span className="p-color">
+                    Clears all the warnings from a member.
+                  </span>
                 </li>
                 <li>
                   <kbd>/ban</kbd> -{" "}
@@ -105,12 +107,8 @@ export default function Commands() {
                   <span className="p-color">Kicks a member from the server.</span>
                 </li>
                 <li>
-                  <kbd>/warnings</kbd> -{" "}
-                  <span className="p-color">View / Check the warnings of a member.</span>
-                </li>
-                <li>
                   <kbd>/mute</kbd> -{" "}
-                  <span className="p-color">Permanetly mute a member.</span>
+                  <span className="p-color">Permanently mute a member.</span>
                 </li>
                 <li>
                   <kbd>/tempmute</kbd> -{" "}
@@ -118,27 +116,16 @@ export default function Commands() {
                 </li>
                 <li>
                   <kbd>/tempban</kbd> -{" "}
-                  <span className="p-color">Temporarily ban / long kick a member.</span>
-                </li>
-                <li>
-                  <kbd>/ban</kbd> -{" "}
-                  <span className="p-color">Bans a member from the server.</span>
-                </li>
-                <li>
-                  <kbd>/kick</kbd> -{" "}
-                  <span className="p-color">Kicks a member from the server.</span>
-                </li>
-                <li>
-                  <kbd>/warnings</kbd> -{" "}
-                  <span className="p-color">View / Check the warnings of a member.</span>
-                </li>
-                <li>
-                  <kbd>/mute</kbd> -{" "}
-                  <span className="p-color">Permanetly mute a member.</span>
+                  <span className="p-color">
+                    Temporarily ban / long kick a member.
+                  </span>
                 </li>
                 <li>
                   <kbd>/deafen</kbd> -{" "}
-                  <span className="p-color">Deafens a member in a voice chat (does not allow member to hear other people).</span>
+                  <span className="p-color">
+                    Deafens a member in a voice chat (does not allow member to
+                    hear other people).
+                  </span>
                 </li>
                 <li>
                   <kbd>/undeafen</kbd> -{" "}
@@ -146,11 +133,15 @@ export default function Commands() {
                 </li>
                 <li>
                   <kbd>/role</kbd> -{" "}
-                  <span className="p-color">Grant or remove a role from a member provided.</span>
+                  <span className="p-color">
+                    Grant or remove a role from a member provided.
+                  </span>
                 </li>
                 <li>
                   <kbd>/whois</kbd> -{" "}
-                  <span className="p-color"Fetch essential / non essential information of a member.</span>
+                  <span className="p-color">
+                    Fetch essential / non-essential information of a member.
+                  </span>
                 </li>
               </ul>
             </div>
@@ -159,7 +150,9 @@ export default function Commands() {
           <input type="radio" name="accordion" id="acc-close" />
         </nav>
       </section>
+
       <Footer />
     </motion.div>
   );
 }
+
