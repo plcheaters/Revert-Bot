@@ -5,29 +5,28 @@ const About = () => {
     <>
       <section className="about-section" id="about-section">
         <div className="about-header">
-          <h3 className="h-color">Why use this bot?</h3>
+          <h3 className="h-color">Why use Revert?</h3>
         </div>
         <div className="about-container">
           <div className="about-card">
             <div>
-              <h4 className="h-color">⚡ Commands</h4>
+              <h4 className="h-color">🔥 Commands</h4>
               <p className="p-color">
-                We have more than 200 commands support in this bot.
+                Explore Revert’s powerful commands designed for security, moderation, and handy utilities to keep your server safe and running smoothly.
               </p>
               <hr />
             </div>
             <div>
-              <h4 className="h-color">✉️ 24/7 Support</h4>
+              <h4 className="h-color">✉ 24/7 Support</h4>
               <p className="p-color">
-                The biggest support community server for the bot available for
-                you anytime.
+                We offer 24/7 support, but response times may be slow right now as we have only one support team member.
               </p>
               <hr />
             </div>
             <div>
-              <h4 className="h-color">✏️ Customization</h4>
+              <h4 className="h-color">🛡️ Best Security</h4>
               <p className="p-color">
-                Fully customizable discord bot completely FREE!
+                Revert has everything you need for effortless security.
               </p>
               <hr />
             </div>
@@ -41,15 +40,15 @@ const About = () => {
 
         <section className="about-stats">
           <div className="about-stats-card">
-            <h4 className="h-color">17k+</h4>
+            <h4 className="h-color">nil</h4>
             <p className="p-color">Total Servers</p>
           </div>
           <div className="about-stats-card">
-            <h4 className="h-color">94k+</h4>
+            <h4 className="h-color">2K</h4>
             <p className="p-color">Total Users</p>
           </div>
           <div className="about-stats-card">
-            <h4 className="h-color">375k+</h4>
+            <h4 className="h-color">33</h4>
             <p className="p-color">Total Commands</p>
           </div>
         </section>
